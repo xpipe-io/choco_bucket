@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generated with JReleaser 1.5.1 at 2023-04-13T17:06:29.5993963+02:00 -->
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <!-- required -->
+    <id>xpipe</id>
+    <version>0.5.36</version>
+    <authors>Christopher Schnick</authors>
+    <description>A connection manager and remote file explorer that works by exclusively interacting with CLI tools on local and remote shell connections. This approach makes it much more flexible as it doesn't have to deal with file system APIs or remote file handling protocols at all.
+
+X-Pipe integrates with your existing tools and workflows by outsourcing as many tasks as possible to your text/code editors, terminals, shells, command-line tools and more. The platform is designed to be extensible, allowing anyone to implement custom functionality through extensions.</description>
+    <!-- optional -->
+    <title>X-Pipe</title>
+    <projectUrl>https://github.com/xpipe-io/xpipe</projectUrl>
+    <copyright>2023, Christopher Schnick</copyright>
+    <licenseUrl>https://github.com/xpipe-io/xpipe/blob/master/LICENSE.md</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <tags>java docker ssh postgres lxd wsl xpipe java docker ssh postgres lxd wsl xpipe</tags>
+    <summary>A brand-new type of connection manager and remote file explorer.</summary>
+    <projectSourceUrl>https://github.com/xpipe-io/xpipe</projectSourceUrl>
+    <packageSourceUrl>https://github.com/xpipe-io/choco_bucket</packageSourceUrl>
+    <docsUrl>https://xpipe.io/docs</docsUrl>
+    <bugTrackerUrl>https://github.com/xpipe-io/xpipe/issues</bugTrackerUrl>
+    <releaseNotes>https://github.com/xpipe-io/xpipe/releases/tag/0.5.36</releaseNotes>
+    <iconUrl>https://github.com/xpipe-io/xpipe/raw/master/dist/logo/logo.png</iconUrl>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
