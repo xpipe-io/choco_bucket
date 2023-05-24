@@ -1,4 +1,4 @@
-# Generated with JReleaser 1.6.0 at 2023-05-24T07:46:49.043651114Z
+# Generated with JReleaser 1.6.0 at 2023-05-24T08:43:18.699004113Z
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 
 $packageArgs = @{
@@ -8,7 +8,7 @@ $packageArgs = @{
   silentArgs    = "/quiet"
   validExitCodes= @(0)
   softwareName  = 'xpipe*'
-  checksum      = 'e77039734b1d28aef6661f0dbd86810688a8bacc8a206d7df3d07457155eba0d'
+  checksum      = '3b55761dc204981056c263c2f7f648ea20e60456b713d0e73bc6d94c3c894775'
   checksumType  = 'sha256'
 }
 
