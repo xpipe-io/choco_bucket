@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generated with JReleaser 1.6.0 at 2023-07-06T06:55:20.982680803Z -->
+<!-- Generated with JReleaser 1.6.0 at 2023-07-10T05:04:22.839605557Z -->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- required -->
     <id>xpipe</id>
-    <version>1.3.0</version>
+    <version>1.3.1</version>
     <authors>Christopher Schnick</authors>
     <description>A connection manager and remote file explorer that works by exclusively interacting with CLI tools on local and remote shell connections. This approach makes it much more flexible as it doesn't have to deal with file system APIs or remote file handling protocols at all.
 
@@ -20,9 +20,9 @@ XPipe integrates with your existing tools and workflows by outsourcing as many t
     <summary>A brand-new type of connection manager and remote file explorer.</summary>
     <projectSourceUrl>https://github.com/xpipe-io/xpipe</projectSourceUrl>
     <packageSourceUrl>https://github.com/xpipe-io/choco_bucket</packageSourceUrl>
-    <docsUrl>https://xpipe.io/docs</docsUrl>
+    <docsUrl>https://docs.xpipe.io</docsUrl>
     <bugTrackerUrl>https://github.com/xpipe-io/xpipe/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/xpipe-io/xpipe/releases/tag/1.3.0</releaseNotes>
+    <releaseNotes>https://github.com/xpipe-io/xpipe/releases/tag/1.3.1</releaseNotes>
     <iconUrl>https://rawcdn.githack.com/xpipe-io/xpipe/a097ae7a41131fa358b5343345557ad00a45c309/dist/logo/logo.png</iconUrl>
   </metadata>
   <files>
