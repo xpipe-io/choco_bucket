@@ -1,1 +1,3 @@
-# choco_bucket
+# XPipe choco bucket
+
+`choco install xpipe`
