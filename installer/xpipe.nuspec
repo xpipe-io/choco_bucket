@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generated with JReleaser 1.8.0 at 2024-02-28T10:47:19.709081404Z -->
+<!-- Generated with JReleaser 1.8.0 at 2024-03-04T19:11:14.349975361Z -->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- required -->
     <id>xpipe</id>
-    <version>8.0.1</version>
+    <version>8.1</version>
     <authors>Christopher Schnick</authors>
     <description>XPipe is a new type of shell connection hub and remote file manager that allows you to access your entire server infrastructure from your local machine. It works on top of your installed command-line programs that you normally use to connect and does not require any setup on your remote systems.</description>
     <!-- optional -->
@@ -20,7 +20,7 @@
     <packageSourceUrl>https://github.com/xpipe-io/choco_bucket</packageSourceUrl>
     <docsUrl>https://docs.xpipe.io</docsUrl>
     <bugTrackerUrl>https://github.com/xpipe-io/xpipe/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/xpipe-io/xpipe/releases/tag/8.0.1</releaseNotes>
+    <releaseNotes>https://github.com/xpipe-io/xpipe/releases/tag/8.1</releaseNotes>
     <iconUrl>https://rawcdn.githack.com/xpipe-io/xpipe/a097ae7a41131fa358b5343345557ad00a45c309/dist/logo/logo.png</iconUrl>
   </metadata>
   <files>
