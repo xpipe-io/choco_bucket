@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generated with JReleaser 1.8.0 at 2024-03-07T19:58:16.148594569Z -->
+<!-- Generated with JReleaser 1.8.0 at 2024-03-11T08:39:45.57031774Z -->
 <!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <!-- required -->
     <id>xpipe</id>
-    <version>8.2</version>
+    <version>8.3</version>
     <authors>Christopher Schnick</authors>
     <description>XPipe is a new type of shell connection hub and remote file manager that allows you to access your entire server infrastructure from your local machine. It works on top of your installed command-line programs that you normally use to connect and does not require any setup on your remote systems.</description>
     <!-- optional -->
     <title>XPipe</title>
     <projectUrl>https://xpipe.io</projectUrl>
     <copyright>2023, XPipe UG (haftungsbeschränkt)</copyright>
-    <licenseUrl>https://github.com/xpipe-io/xpipe/blob/master/LICENSE.md</licenseUrl>
+    <licenseUrl>https://docs.xpipe.io/license</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>desktop docker ssh postgres lxd wsl k8s kubernetes podman sftp terminal desktop docker ssh postgres lxd wsl k8s kubernetes podman sftp terminal</tags>
     <summary>Your entire server infrastructure at your fingertips</summary>
@@ -20,7 +20,7 @@
     <packageSourceUrl>https://github.com/xpipe-io/choco_bucket</packageSourceUrl>
     <docsUrl>https://docs.xpipe.io</docsUrl>
     <bugTrackerUrl>https://github.com/xpipe-io/xpipe/issues</bugTrackerUrl>
-    <releaseNotes>https://github.com/xpipe-io/xpipe/releases/tag/8.2</releaseNotes>
+    <releaseNotes>https://github.com/xpipe-io/xpipe/releases/tag/8.3</releaseNotes>
     <iconUrl>https://rawcdn.githack.com/xpipe-io/xpipe/a097ae7a41131fa358b5343345557ad00a45c309/dist/logo/logo.png</iconUrl>
   </metadata>
   <files>
