@@ -1,14 +1,17 @@
-# Generated with JReleaser 1.15.0 at 2025-07-10T12:41:23.397740908Z
 $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
+
+$RawArch = [System.Runtime.InteropServices.RuntimeInformation,mscorlib]::OSArchitecture.ToString().ToLower();
+$Arch = If ($RawArch -eq "x64") {"x86_64"} Else {"arm64"}
+$Checksum = If ($RawArch -eq "x64") {"991b351d9a0574e455541d1a357432cc68385c22ff536e35fe9e10f1badbce40"} Else {"66767e3fb6669c625cb5e7a17aa10efe3a54692696e356d2c7e2e571b4c73dad"}
 
 $packageArgs = @{
   packageName   = 'xpipe'
   fileType      = 'msi'
-  url           = 'https://github.com/xpipe-io/xpipe/releases/download/16.7/xpipe-installer-windows-x86_64.msi'
+  url           = "https://github.com/xpipe-io/xpipe/releases/download/17.0/xpipe-installer-windows-$Arch.msi"
   silentArgs    = "/quiet"
   validExitCodes= @(0)
   softwareName  = 'xpipe*'
-  checksum      = '4f38fdb936ba293f4a3480576cdca1a332d091805038947cacd98814eaea6932'
+  checksum      = $Checksum
   checksumType  = 'sha256'
 }
 
