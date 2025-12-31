@@ -3,11 +3,11 @@ $toolsDir   = "$(Split-Path -Parent $MyInvocation.MyCommand.Definition)"
 $packageArgs = @{
   packageName   = 'xpipe'
   fileType      = 'msi'
-  url           = 'https://github.com/xpipe-io/xpipe/releases/download/20.0.1/xpipe-installer-windows-x86_64.msi'
+  url           = 'https://github.com/xpipe-io/xpipe/releases/download/20.1/xpipe-installer-windows-x86_64.msi'
   silentArgs    = "/quiet"
   validExitCodes= @(0)
   softwareName  = 'xpipe*'
-  checksum      = '95415cb0ee6c519224e8682f00c590c69b65d1fbb0b5f4eb94d9f450975eb9e4'
+  checksum      = '93c404e5e9da091115b65a85a02439009f6d868ca856c6a630502c11e0e0b642'
   checksumType  = 'sha256'
 }
 
